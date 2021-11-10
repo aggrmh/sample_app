@@ -2,7 +2,7 @@
 
 <table>
   <tr>
-    
+    <th>ID</th>
     <th>背番号</th>
     <th>ポジション</th>
     <th>所属</th>
@@ -13,7 +13,7 @@
 </tr>
 @foreach($players as $player)
 <tr>
-  
+  <td>{{ $player->id }}</td>
   <td>{{ $player->uniform_num }}</td>
   <td>{{ $player->position }}</td>
   <td>{{ $player->name }}</td>
