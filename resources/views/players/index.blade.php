@@ -10,6 +10,7 @@
     <th>誕生日</th>
     <th>身長</th>
     <th>体重</th>
+    <th>ゴール</th>
 </tr>
 @foreach($players as $player)
 <tr>
